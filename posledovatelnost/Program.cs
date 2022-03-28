@@ -51,9 +51,17 @@ for (int i = 0; i < len; i++)
     while (true);
 }
 
+int minPos = 0, minimum = int.MaxValue;
 Console.Clear();
 Console.WriteLine("posledovatelnost' imeet vid:");
 foreach (int i in posl)
 {
     Console.Write($"{i} ");
+    if(i < minimum)
+    {
+        minimum = i;
+        //minPos = i;
+    }
 }
+
+Console.WriteLine($"\nminimal'niy chlen posledovatel'nosti: {minimum}");
