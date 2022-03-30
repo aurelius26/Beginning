@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "posledovatelnost", "posledo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "GuessNumber\GuessNumber.csproj", "{DD4E3FBB-0252-4B44-BBA2-4F6DCE285FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "Method\Method.csproj", "{70A2B194-3282-423D-ACFE-2A0A8EC5AA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method", "Method\Method.csproj", "{70A2B194-3282-423D-ACFE-2A0A8EC5AA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversWords", "ReversWords\ReversWords.csproj", "{8CBC8B25-7608-493B-A1E2-3A6C7A8583C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{70A2B194-3282-423D-ACFE-2A0A8EC5AA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A2B194-3282-423D-ACFE-2A0A8EC5AA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A2B194-3282-423D-ACFE-2A0A8EC5AA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBC8B25-7608-493B-A1E2-3A6C7A8583C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBC8B25-7608-493B-A1E2-3A6C7A8583C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBC8B25-7608-493B-A1E2-3A6C7A8583C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBC8B25-7608-493B-A1E2-3A6C7A8583C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
