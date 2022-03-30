@@ -61,3 +61,4 @@ static string ReversWords(string[] str1)
 
 Console.WriteLine(ReversWords(SplitString(Console.ReadLine())));
 
+System.Threading.Thread.Sleep(5000);
